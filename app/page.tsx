@@ -4,7 +4,7 @@ export default function Home() {
 	return (
 		<main className="flex min-h-screen flex-col items-center justify-center p-24">
 			<div className="z-10 max-w-5xl w-full items-center justify-center font-mono text-sm lg:flex self-center">
-				<p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
+				<p className="fixed left-0 top-0 flex items-center justify-center flex-col sm:flex-row w-full border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
 					This is a simple page made with&nbsp;
 					<code className="font-mono font-bold">Next.js</code>
 					&nbsp;to test Netlify&apos;s deploying features.
